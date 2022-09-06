@@ -33,6 +33,9 @@ metadata:
     chart: {{ template "hdfs-k8s.subchart" . }}
     release: {{ .Release.Name }}
 spec:
+  selector:
+    matchLabels:
+      app: {{ template "hdfs-k8s.krb5.name" . }}
   serviceName: {{ template "hdfs-k8s.krb5.fullname" . }}
   replicas: {{ .Values.replicaCount }}
   selector:
