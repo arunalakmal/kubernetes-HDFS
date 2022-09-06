@@ -33,7 +33,7 @@ HDFS on K8s supports the following features:
 
 Here is the list of all charts.
 
-  - hdfs-k8s: main uber-chart. Launches other charts.
+  - kubernetes-hdfs: main uber-chart. Launches other charts.
   - hdfs-namenode-k8s: a statefulset and other K8s components for launching HDFS
     namenode daemons, which maintains file system metadata. The chart supports
     namenode high availability (HA).
