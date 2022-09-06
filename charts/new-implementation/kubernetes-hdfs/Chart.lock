@@ -1,0 +1,27 @@
+dependencies:
+- name: zookeeper
+  repository: https://charts.helm.sh/incubator
+  version: 2.1.6
+- name: hdfs-config-k8s
+  repository: file://../hdfs-config-k8s
+  version: 0.1.0
+- name: hdfs-krb5-k8s
+  repository: file://../hdfs-krb5-k8s
+  version: 0.1.0
+- name: hdfs-journalnode-k8s
+  repository: file://../hdfs-journalnode-k8s
+  version: 0.1.0
+- name: hdfs-namenode-k8s
+  repository: file://../hdfs-namenode-k8s
+  version: 0.1.0
+- name: hdfs-simple-namenode-k8s
+  repository: file://../hdfs-simple-namenode-k8s
+  version: 0.1.0
+- name: hdfs-datanode-k8s
+  repository: file://../hdfs-datanode-k8s
+  version: 0.1.0
+- name: hdfs-client-k8s
+  repository: file://../hdfs-client-k8s
+  version: 0.1.0
+digest: sha256:8e5f3d629008663a2b241c5b94b3452e252406792138668f3e1e244f0617c5c5
+generated: "2022-09-06T13:53:57.390127+02:00"
